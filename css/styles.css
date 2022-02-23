@@ -235,6 +235,8 @@
   text-decoration:none;   
   display: flex;
   }
+
+
   .solutions {
   background: #2F303A;
  
@@ -302,6 +304,10 @@ margin-right: auto;
     color:var(--main-bcg-color);
     background-color:var(--secondary-accent-color)
     }
+
+
+
+
 .backdrop {
   z-index:2;
   position:fixed;
@@ -552,14 +558,18 @@ transition: 250ms var(--timing-function);
   .list {
     list-style-type: none;
   }
+
+
+
+
+
+
+
   /* Секция преимущества, заголовок скрыт */
   .title-hidden {
     font-size: 0px;
   }
-  /* селектор лист повторяется */
-  .list{
-    list-style-type: none;
-  }
+
   .advantages {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -842,7 +852,6 @@ margin-right: 0px;
   .net-link:focus {
     background: var(--primary-accent-color);
     cursor: pointer;
-
   }
 .footer-list {
   display:flex;
