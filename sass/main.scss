@@ -1,23 +1,23 @@
-@import"./utilits/_vars";
-@import "./utilits/_normalize";
-@import"./base/_body";
-@import"./base/_common";
-@import"./base/_fonts";
-@import"./components/header/_page-header";
-@import"./components/header/_logo";
-@import"./components/header/_navigation";
-@import"./components/header/_contacts";
-@import"./components/solutions-section/_solutions";
-@import"./components/solutions-section/_button-solutions";
-@import"./components/solutions-section/_modal-window";
-@import"./components/advantages-section/_advantages";
-@import"./components/tasks-section/_tasks";
-@import"./components/heroes/_heroes";
-@import"./components/footer/_footer-page";
-@import"./components/footer/_logo-footer";
-@import"./components/footer/_socials";
-@import"./components/footer/_follow-part";
-@import "../sass/_portfolio";
+@import './utilits/vars';
+@import './utilits/normalize';
+@import './base/body';
+@import './base/common';
+@import './base/fonts';
+@import './components/header/page-header';
+@import './components/header/logo';
+@import './components/header/navigation';
+@import './components/header/contacts';
+@import './components/solutions-section/solutions';
+@import './components/solutions-section/button-solutions';
+@import './components/solutions-section/modal-window';
+@import './components/advantages-section/advantages';
+@import './components/tasks-section/tasks';
+@import './components/heroes/heroes';
+@import './components/footer/socials';
+@import './components/footer/footer-page';
+@import './components/footer/follow-part';
+@import './components/footer/logo-footer';
+@import './portfolio';
 
 
 
