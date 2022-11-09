@@ -465,14 +465,14 @@ ul {
   color: var(--primary-accent-color);
 }
 
-.logo-link-one,
-.logo-link-two:hover {
+.logo-link__one,
+.logo-link__two:hover {
   text-decoration: underline;
   color: var(--primary-accent-color);
 }
 
-.logo-link-one,
-.logo-link-two:focus {
+.logo-link__one,
+.logo-link__two:focus {
   text-decoration: var(--primary-accent-color);
 }
 
@@ -490,7 +490,7 @@ ul {
   color: black;
 }
 
-.page-header .logo-link-one {
+.page-header .logo-link__one {
   color: var(--primary-accent-color);
   /* text-decoration:none; */
 }
@@ -518,7 +518,7 @@ ul {
   /* justify-content: space-between; */
 }
 
-.site-nav-li + .site-nav-li {
+.site-nav__li + .site-nav__li {
   margin-left: 50px;
 }
 
@@ -676,7 +676,7 @@ h1, h2, h3, p {
   transition: fill 250ms var(--timing-function);
 }
 
-.modal-button {
+.modal__button {
   display: flex;
   align-items: center;
   width: 30px;
@@ -692,11 +692,11 @@ h1, h2, h3, p {
   transition: transform 1250ms var(--timing-function);
 }
 
-.modal-button:hover .icon-close {
+.modal__button:hover .icon-close {
   fill: var(--primary-accent-color);
 }
 
-.modal-text {
+.modal__text {
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
@@ -706,7 +706,7 @@ h1, h2, h3, p {
   margin-bottom: 12px;
 }
 
-.modal-icons {
+.modal__icons {
   fill: #212121;
   width: 18px;
   height: 18px;
@@ -719,7 +719,7 @@ h1, h2, h3, p {
   transition-duration: 250ms;
 }
 
-.modal-label {
+.modal__label {
   color: #757575;
   font-weight: normal;
   font-size: 12px;
@@ -730,7 +730,7 @@ h1, h2, h3, p {
   transition: 250ms var(--timing-function);
 }
 
-.modal-input {
+.input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
@@ -738,18 +738,18 @@ h1, h2, h3, p {
   width: 448px;
 }
 
-.modal-input:hover,
-.modal-input:focus {
+.input:hover,
+.input:focus {
   color: var(--primary-accent-color);
   cursor: pointer;
 }
 
-.modal-input:hover > .modal-label {
+.input:hover > .modal__label {
   color: var(--primary-accent-color);
 }
 
-.modal-label:hover,
-.modal-label:focus > .modal-icons {
+.modal__label:hover,
+.modal__label:focus > .modal__icons {
   color: var(--primary-accent-color);
   fill: var(--primary-accent-color);
   cursor: pointer;
@@ -785,7 +785,7 @@ h1, h2, h3, p {
   margin-left: 13px;
 }
 
-.agreement-link {
+.agreement__link {
   margin-left: 2px;
 }
 
@@ -806,7 +806,7 @@ h1, h2, h3, p {
   border: none;
 }
 
-.button-form {
+.button-form__btn-send {
   margin-top: 30px;
   display: flex;
   align-items: center;
@@ -831,15 +831,15 @@ h1, h2, h3, p {
   padding-left: 42px;
 }
 
-.form-field:focus-within > .modal-icons {
+.form-field:focus-within > .modal__icons {
   fill: var(--primary-accent-color);
 }
 
-.form-field:hover .modal-icons {
+.form-field:hover .modal__icons {
   fill: var(--primary-accent-color);
 }
 
-.form-field:hover > .modal-input {
+.form-field:hover > .input {
   color: #2196F3;
 }
 
@@ -850,7 +850,7 @@ h1, h2, h3, p {
   color: rgba(117, 117, 117, 0.5);
 }
 
-textarea {
+.modal__textarea {
   width: 448px;
   height: 120px;
   font-weight: normal;
@@ -866,7 +866,7 @@ textarea {
   resize: none;
 }
 
-.btn-send {
+.button-form__btn-send {
   /*параментры поля кнопки */
   background: var(--primary-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -895,13 +895,13 @@ textarea {
   cursor: pointer;
 }
 
-.btn-send:hover {
+.button-form__btn-send:hover {
   text-decoration: underline var(--primary-accent-color);
   color: var(--main-bcg-color);
   background-color: var(--secondary-accent-color);
 }
 
-.btn-send:focus {
+.button-form__btn-send:focus {
   text-decoration: underline var(--primary-accent-color);
   color: var(--main-bcg-color);
   background-color: var(--secondary-accent-color);
@@ -921,7 +921,7 @@ textarea {
   display: flex;
 }
 
-.icon-container {
+.icon__container {
   width: 270px;
   background-color: #F5F4FA;
   border-radius: 4px;
@@ -933,28 +933,28 @@ textarea {
   padding-right: 100px;
 }
 
-.advantage-icons {
+.advantage__icons {
   width: 70px;
   height: 70px;
   align-items: center;
   color: #212121;
 }
 
-.advantages-list {
+.advantages__list {
   display: flex;
 }
 
-.advantage-item {
+.advantage__item {
   display: flex;
   flex-wrap: wrap;
   width: 270px;
 }
 
-.advantage-item:not(:last-child) {
+.advantage__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.title-advantages {
+.title__advantages {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -964,7 +964,7 @@ textarea {
   color: var(--h-text-color);
 }
 
-.context-advantages {
+.context__advantages {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -1064,7 +1064,7 @@ textarea {
   align-items: flex-start;
 }
 
-.team-box {
+.photo-list__team-box {
   /* material shadow */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -1076,7 +1076,7 @@ textarea {
   background-color: #FFFFFF;
 }
 
-.team-box:last-child {
+.photo-list__team-box:last-child {
   margin-right: 0px;
 }
 
@@ -1085,7 +1085,7 @@ textarea {
   padding-bottom: 30px;
 }
 
-.team-title {
+.studio__team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -1095,7 +1095,7 @@ textarea {
   margin-bottom: 10px;
 }
 
-.post-title {
+.studio__post-title {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -1111,13 +1111,13 @@ textarea {
   justify-content: center;
 }
 
-.icons-list {
+.social__icons--list {
   display: inline-block;
   align-items: center;
   justify-content: center;
 }
 
-.s-icon-link {
+.s__icon--link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -1132,7 +1132,7 @@ textarea {
   transition-duration: 250ms;
 }
 
-.s-icon {
+.s__icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
@@ -1140,13 +1140,13 @@ textarea {
   transition-duration: 250ms;
 }
 
-.s-icon:hover,
-.s-icon:focus {
+.s__icon:hover,
+.s__icon:focus {
   fill: white;
 }
 
-.s-icon-link:hover,
-.s-icon-link:focus {
+.s__icon--link:hover,
+.s__icon--link:focus {
   width: 44px;
   height: 44px;
   background: #2196F3;

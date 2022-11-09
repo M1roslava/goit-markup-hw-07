@@ -29,7 +29,7 @@ padding: 40px;
   fill: #000000;
   transition: fill 250ms var(--timing-function);
 }
-.modal-button {
+.modal__button {
   display:flex;
   align-items: center;
   width: 30px;
@@ -44,11 +44,10 @@ cursor: pointer;
 transition-property: fill;
   transition: transform 1250ms var(--timing-function);
 }
-.modal-button:hover .icon-close {
+.modal__button:hover .icon-close {
   fill: var(--primary-accent-color);
 }
-.modal-text {
-
+.modal__text {
 font-weight: 700;
 font-size: 20px;
 line-height: 23px;
@@ -58,7 +57,7 @@ letter-spacing: 0.03em;
 color: #212121;
 margin-bottom: 12px;
 }
-.modal-icons {
+.modal__icons {
   fill:#212121;
   width: 18px;
 height: 18px;
@@ -70,7 +69,7 @@ transform: translateY(19px);
 transition-property:fill;
 transition-duration: 250ms;
 }
-.modal-label {
+.modal__label {
   color: #757575;
   font-weight: normal;
 font-size: 12px;
@@ -80,23 +79,23 @@ margin-bottom: 4px;
 transition-property:color;
 transition:  250ms var(--timing-function);
 }
-.modal-input {
+.input {
 border: 1px solid rgba(33, 33, 33, 0.2);
 box-sizing: border-box;
 border-radius: 4px;
 height: 40px;
 width: 448px;
 }
-.modal-input:hover, 
-.modal-input:focus {
+.input:hover, 
+.input:focus {
  color: var(--primary-accent-color);
  cursor: pointer;
 }
-.modal-input:hover> .modal-label {
+.input:hover> .modal__label {
   color: var(--primary-accent-color);
 }
-.modal-label:hover,
-.modal-label:focus> .modal-icons{
+.modal__label:hover,
+.modal__label:focus> .modal__icons{
   color: var(--primary-accent-color);
   fill: var(--primary-accent-color);
   cursor: pointer;
@@ -130,7 +129,7 @@ color: var(--primary-accent-color);
   margin-left: 13px;
 
 }
-.agreement-link {
+.agreement__link {
   margin-left:2px;
 }
 .checkbox {
@@ -148,7 +147,7 @@ transition-property:color;
 transition: 250ms var(--timing-function);
 border: none;
 }
-.button-form {
+.button-form__btn-send{
   margin-top: 30px;
   display:flex;
   align-items: center;
@@ -170,14 +169,14 @@ border: none;
   padding-left: 42px;
 
 }
-.form-field:focus-within >.modal-icons{
+.form-field:focus-within >.modal__icons{
   fill: var(--primary-accent-color);
 }
-.form-field:hover .modal-icons {
+.form-field:hover .modal__icons {
   fill: var(--primary-accent-color);
 
 }
-.form-field:hover >.modal-input{
+.form-field:hover >.input{
  color: #2196F3;
 }
 .form-field input::placeholder {
@@ -187,7 +186,7 @@ letter-spacing: 0.01em;
 
 color: rgba(117, 117, 117, 0.5);
 }
-textarea {
+.modal__textarea {
 width: 448px;
 height: 120px;
 font-weight: normal;
@@ -204,7 +203,7 @@ padding:12px 16px;
 margin-bottom: 10px;
 resize: none;
 }
-.btn-send {
+.button-form__btn-send {
     /*параментры поля кнопки */
   background:var(--primary-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -233,13 +232,13 @@ transition: 250ms var(--timing-function);
   cursor: pointer;
   }
   
-  .btn-send:hover {
+  .button-form__btn-send:hover {
   text-decoration: underline var(--primary-accent-color);
   color:var(--main-bcg-color);
   background-color:var(--secondary-accent-color);
   }
   
-  .btn-send:focus {
+  .button-form__btn-send:focus {
     text-decoration: underline var(--primary-accent-color);
     color:var(--main-bcg-color);
     background-color:var(--secondary-accent-color)

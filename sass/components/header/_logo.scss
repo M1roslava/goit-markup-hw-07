@@ -1,14 +1,14 @@
 .logo-link {
     color:var(--primary-accent-color);
   }
-  .logo-link-one, 
-  .logo-link-two:hover {
+  .logo-link__one, 
+  .logo-link__two:hover {
     text-decoration: underline;
     color:var(--primary-accent-color);
     
   }
-  .logo-link-one, 
-  .logo-link-two:focus {
+  .logo-link__one, 
+  .logo-link__two:focus {
     text-decoration: var(--primary-accent-color);
   }
   .logo-link {
@@ -25,7 +25,7 @@
     color:black;
      }
     
-    .page-header .logo-link-one {
+    .page-header .logo-link__one {
      color:var(--primary-accent-color);
      /* text-decoration:none; */
      }
