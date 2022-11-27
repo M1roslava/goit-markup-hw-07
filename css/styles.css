@@ -566,7 +566,7 @@ transition: 250ms var(--timing-function);
 
 
   /* Секция преимущества, заголовок скрыт */
-  .title-hidden {
+  .advantages__title-hidden {
     font-size: 0px;
   }
 
@@ -579,7 +579,7 @@ transition: 250ms var(--timing-function);
     display:flex;
 
   }
-  .icon-container {
+  .advantages__container {
 
     width: 270px;
     background-color: #F5F4FA;
@@ -591,26 +591,26 @@ transition: 250ms var(--timing-function);
     padding-left: 100px;
     padding-right: 100px;
   }
-  .advantage-icons {  
+  .advantages__icons {  
     width:70px;
     height:70px;
     align-items: center;
     color:#212121;
     }
 
-  .advantages-list {
+  .advantages__list {
   display:flex;
   }
-  .advantage-item {
+  .advantages__item {
     display:flex;
     flex-wrap: wrap;
     width:270px;
   }
- .advantage-item:not(:last-child) {
+ .advantages__item:not(:last-child) {
   margin-right: 30px;
  }
 
-  .title-advantages {
+  .advantages__title{
   margin-bottom: 10px;
    font-weight: 700;
   font-size: 14px;
@@ -619,7 +619,7 @@ transition: 250ms var(--timing-function);
   text-transform: uppercase;
   color:var(--h-text-color);
   }
-  .context-advantages {
+  .advantages__context{
       font-weight: 400;
       font-size: 14px;
       line-height: 1.7; 
